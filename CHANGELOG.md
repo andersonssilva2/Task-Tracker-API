@@ -1,0 +1,5 @@
+- ✅ Backend: Go + Gin API
+- ✅ Frontend: Vite + Nginx
+- ✅ PostgreSQL DB + init.sql
+- ✅ Docker Compose orchestration
+- ✅ RESTful endpoints: GET /tasks, POST /tasks
