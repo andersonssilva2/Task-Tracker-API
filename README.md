@@ -34,17 +34,17 @@ A lightweight, containerized task management system built with **Go (Gin)**, **P
 git clone https://github.com/your-username/task-tracker-api.git
 cd task-tracker-api
 
-2. Create .env file
+1. Create .env file
 env
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_DB=tasks
 DB_URL=postgres://postgres:postgres@db:5432/tasks?sslmode=disable
 
-3. Run the app
+2. Run the app
 docker compose up --build
 
-4. Access the app
+3. Access the app
 Frontend: http://localhost:3000
 Backend API: http://localhost:8080/tasks
 
