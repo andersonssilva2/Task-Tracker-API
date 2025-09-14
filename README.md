@@ -1,7 +1,6 @@
 # 📝 Task Tracker API
 
 A lightweight, containerized task management system built with **Go (Gin)**, **PostgreSQL**, and **Vite + Nginx**. Designed for fast development, reproducibility, and future scalability — ideal for learning Docker, backend API design, and full-stack orchestration.
-
 ---
 
 ## 🚀 Features
@@ -12,7 +11,6 @@ A lightweight, containerized task management system built with **Go (Gin)**, **P
 - Docker Compose orchestration
 - Clean separation of concerns: `models`, `handlers`, `db`
 - Environment-based configuration via `.env`
-
 ---
 
 ## 🧱 Tech Stack
